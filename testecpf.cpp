@@ -1,4 +1,4 @@
-//-----CPF V¡LIDO OU N√O------//
+//-----CPF V√ÅLIDO OU N√ÉO------//
 #include <iostream>
 #include <math.h>
 using namespace std;
@@ -21,13 +21,13 @@ int main()
 	num10 = (cpf / 10) % 10;
 	num11 = cpf % 10;
 	
-	//CALCULO PARA ENCONTAR O 10∞ DÕGITO//
+	//CALCULO PARA ENCONTAR O 10¬∞ D√çGITO//
 	res10 = ((num1 * 1)+(num2* 2)+(num3 * 3)+(num4* 4)+(num5 * 5)+(num6* 6)+(num7 * 7)+(num8* 8)+(num9 * 9)) % 11;
 	if (res10 == 10){
 		res10 = 0;
 	}
 	
-	//CALCULO PARA ENCONTAR O 11∞ DÕGITO//
+	//CALCULO PARA ENCONTAR O 11¬∞ D√çGITO//
 	res11 = ((num1 * 0)+(num2* 1)+(num3 * 2)+(num4* 3)+(num5 * 4)+(num6* 5)+(num7 * 6)+(num8* 7)+(num9 * 8)+(num10 * 9)) % 11;
 	if (res11 == 10){
 		res11 = 0;
